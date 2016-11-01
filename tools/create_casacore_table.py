@@ -72,9 +72,6 @@ t.putkeywords({
     'VS_TYPE': 'List of Observatory positions'
 })
 
-ecef = pyproj.Proj(proj='geocent', ellps='WGS84', datum='WGS84')
-lla = pyproj.Proj(proj='latlong', ellps='WGS84', datum='WGS84')
-
 tablerows = t.row()
 for i, row in enumerate(obstable):
     [[x, y, z ]] =  tables.taql("calc meas.position('itrf',{}deg,{}deg,{}m,"
