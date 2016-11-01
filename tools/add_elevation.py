@@ -40,7 +40,7 @@ found = False
 for row in obstable:
     if 'elevation' not in row:
         found = True
-        row['elevation'] = get_elevation(row['longitude'], row['latitude'],
+        row['elevation'] = get_elevation(row['latitude'], row['longitude'],
                                          args.api_key)
 
 if found:

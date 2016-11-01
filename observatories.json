@@ -3,280 +3,280 @@
         "Id": "RATAN-600",
         "Name": "RATAN-600 Radio telescope",
         "elevation": 968,
-        "latitude": 41.586683,
-        "longitude": 43.826167
+        "latitude": 43.826167,
+        "longitude": 41.586683
     },
     {
         "Id": "FAST",
         "Name": "Five-hundred-meter Aperture Spherical radio Telescope",
         "elevation": 854,
-        "latitude": 106.856583,
-        "longitude": 25.652917
+        "latitude": 25.652917,
+        "longitude": 106.856583
     },
     {
         "Id": "ARECIBO",
         "Name": "Arecibo Observatory",
         "elevation": 238,
-        "latitude": -66.75278,
-        "longitude": 18.34417
+        "latitude": 18.34417,
+        "longitude": -66.75278
     },
     {
         "Id": "CSO",
         "Name": "Caltech Submillimeter Observatory",
         "elevation": 4069,
-        "latitude": -155.476,
-        "longitude": 19.8225
+        "latitude": 19.8225,
+        "longitude": -155.476
     },
     {
         "Id": "Effelsberg",
         "Name": "Effelsberg 100-m Radio Telescope",
         "elevation": 346,
-        "latitude": 6.8828,
-        "longitude": 50.5247
+        "latitude": 50.5247,
+        "longitude": 6.8828
     },
     {
         "Id": "LMT",
         "Name": "Large Millimeter Telescope",
         "elevation": 4568,
-        "latitude": -97.314722,
-        "longitude": 18.985833
+        "latitude": 18.985833,
+        "longitude": -97.314722
     },
     {
         "Id": "P2500",
         "Name": "Yevpatoria RT-70 radio telescope",
         "elevation": 2,
-        "latitude": 33.19,
-        "longitude": 45.19
+        "latitude": 45.19,
+        "longitude": 33.19
     },
     {
         "Id": "Galenki",
         "Name": "Galenki RT-70 radio telescope",
         "elevation": 97,
-        "latitude": 131.757,
-        "longitude": 44.0161
+        "latitude": 44.0161,
+        "longitude": 131.757
     },
     {
         "Id": "Suffa",
         "Name": "Suffa RT-70 radio telescope",
         "elevation": 2323,
-        "latitude": 68.45,
-        "longitude": 39.62
+        "latitude": 39.62,
+        "longitude": 68.45
     },
     {
         "Id": "GBT",
         "Name": "Robert C. Byrd Green Bank Telescope",
         "elevation": 806,
-        "latitude": -79.8397,
-        "longitude": 38.4331
+        "latitude": 38.4331,
+        "longitude": -79.8397
     },
     {
         "Id": "Lovell",
         "Name": "Lovell Telescope",
         "elevation": 86,
-        "latitude": -2.30715,
-        "longitude": 53.23625
+        "latitude": 53.23625,
+        "longitude": -2.30715
     },
     {
         "Id": "Ooty",
         "Name": "Ooty Radio Telescope",
         "elevation": 2137,
-        "latitude": 76.66616,
-        "longitude": 11.383404
+        "latitude": 11.383404,
+        "longitude": 76.66616
     },
     {
         "Id": "UTR-2",
         "Name": "Ukrainian T-shaped Radio telescope second modification",
         "elevation": 153,
-        "latitude": 36.9361,
-        "longitude": 49.6381
+        "latitude": 49.6381,
+        "longitude": 36.9361
     },
     {
         "Id": "SRT",
         "Name": "Sardinia Radio Telescope",
         "elevation": 589,
-        "latitude": 9.245197,
-        "longitude": 39.493044
+        "latitude": 39.493044,
+        "longitude": 9.245197
     },
     {
         "Id": "QTT",
         "Name": "Qitai Radio Telescope",
         "elevation": 1759,
-        "latitude": 89.682497,
-        "longitude": 43.601119
+        "latitude": 43.601119,
+        "longitude": 89.682497
     },
     {
         "Id": "ATA",
         "Name": "Allen Telescope Array",
         "elevation": 1018,
-        "latitude": -121.47,
-        "longitude": 40.817
+        "latitude": 40.817,
+        "longitude": -121.47
     },
     {
         "Id": "ALMA",
         "Name": "Atacama Large Millimeter Array",
         "elevation": 5024,
-        "latitude": -67.75333,
-        "longitude": -23.01917
+        "latitude": -23.01917,
+        "longitude": -67.75333
     },
     {
         "Id": "ATCA",
         "Name": "Australia Telescope Compact Array",
         "elevation": 209,
-        "latitude": 149.550278,
-        "longitude": -30.312778
+        "latitude": -30.312778,
+        "longitude": 149.550278
     },
     {
         "Id": "ASKAP",
         "Name": "Australian Square Kilometre Array Pathfinder",
         "elevation": 372,
-        "latitude": 116.637,
-        "longitude": -26.696
+        "latitude": -26.696,
+        "longitude": 116.637
     },
     {
         "Id": "CHIME",
         "Name": "Canadian Hydrogen Intensity Mapping Experiment\"",
         "elevation": 550,
-        "latitude": -119.624,
-        "longitude": 49.321
+        "latitude": 49.321,
+        "longitude": -119.624
     },
     {
         "Id": "CARMA",
         "Name": "Combined Array for Research in Millimeter-wave Astronomy\"",
         "elevation": 2198,
-        "latitude": -118.142,
-        "longitude": 37.2804
+        "latitude": 37.2804,
+        "longitude": -118.142
     },
     {
         "Id": "GMRT",
         "Name": "Giant Metrewave Radio Telescope",
         "elevation": 660,
-        "latitude": 74.049742,
-        "longitude": 19.096517
+        "latitude": 19.096517,
+        "longitude": 74.049742
     },
     {
         "Id": "KVN",
         "Name": "Korean VLBI Network",
         "elevation": 45,
-        "latitude": 126.943056,
-        "longitude": 37.562222
+        "latitude": 37.562222,
+        "longitude": 126.943056
     },
     {
         "Id": "LOFAR",
         "Name": "Low-Frequency Array",
         "elevation": 6,
-        "latitude": 6.86889,
-        "longitude": 52.90889
+        "latitude": 52.90889,
+        "longitude": 6.86889
     },
     {
         "Id": "MeerKAT",
         "Name": "MeerKAT",
         "elevation": 1054,
-        "latitude": 21.411,
-        "longitude": -30.721
+        "latitude": -30.721,
+        "longitude": 21.411
     },
     {
         "Id": "LLAMA",
         "Name": "Large Latin American Millimeter Array",
         "elevation": 4779,
-        "latitude": -66.474724,
-        "longitude": -24.191944
+        "latitude": -24.191944,
+        "longitude": -66.474724
     },
     {
         "Id": "MWA",
         "Name": "Murchison Widefield Array",
         "elevation": 380,
-        "latitude": 116.671,
-        "longitude": -26.7033
+        "latitude": -26.7033,
+        "longitude": 116.671
     },
     {
         "Id": "MOST",
         "Name": "Molonglo Observatory Synthesis Telescope",
         "elevation": 737,
-        "latitude": 149.4241,
-        "longitude": -35.3707
+        "latitude": -35.3707,
+        "longitude": 149.4241
     },
     {
         "Id": "NOEMA",
         "Name": "Northern Extended Millimeter Array",
         "elevation": 2549,
-        "latitude": 5.907917,
-        "longitude": 44.633889
+        "latitude": 44.633889,
+        "longitude": 5.907917
     },
     {
         "Id": "OMT",
         "Name": "One-Mile Telescope",
         "elevation": 20,
-        "latitude": 0.0371,
-        "longitude": 52.1636
+        "latitude": 52.1636,
+        "longitude": 0.0371
     },
     {
         "Id": "PaST",
         "Name": "Primeval Structure Telescope",
         "elevation": 2652,
-        "latitude": 86.716,
-        "longitude": 42.9242
+        "latitude": 42.9242,
+        "longitude": 86.716
     },
     {
         "Id": "SKA",
         "Name": "Square Kilometre Array",
         "elevation": 375,
-        "latitude": 116.631289,
-        "longitude": -26.697025
+        "latitude": -26.697025,
+        "longitude": 116.631289
     },
     {
         "Id": "SMA",
         "Name": "Submillimeter Array",
         "elevation": 4079,
-        "latitude": -155.477972,
-        "longitude": 19.824278
+        "latitude": 19.824278,
+        "longitude": -155.477972
     },
     {
         "Id": "VLA",
         "Name": "Karl G. Jansky Very Large Array",
         "elevation": 2123,
-        "latitude": -107.618283,
-        "longitude": 34.078749
+        "latitude": 34.078749,
+        "longitude": -107.618283
     },
     {
         "Id": "VLBA",
         "Name": "Very Long Baseline Array",
         "elevation": 3726,
-        "latitude": -155.4553,
-        "longitude": 19.8011
+        "latitude": 19.8011,
+        "longitude": -155.4553
     },
     {
         "Id": "WSRT",
         "Name": "Westerbork Synthesis Radio Telescope",
         "elevation": 19,
-        "latitude": 6.603333,
-        "longitude": 52.914722
+        "latitude": 52.914722,
+        "longitude": 6.603333
     },
     {
         "Id": "ARO",
         "Name": "Algonquin Radio Observatory",
         "elevation": 234,
-        "latitude": -78.073042,
-        "longitude": 45.955503
+        "latitude": 45.955503,
+        "longitude": -78.073042
     },
     {
         "Id": "MRAO",
         "Name": "Mullard Radio Astronomy Observatory",
         "elevation": 21,
-        "latitude": 0.0326,
-        "longitude": 52.1674
+        "latitude": 52.1674,
+        "longitude": 0.0326
     },
     {
         "Id": "OSO",
         "Name": "Onsala Space Observatory",
         "elevation": 5,
-        "latitude": 11.917778,
-        "longitude": 57.393056
+        "latitude": 57.393056,
+        "longitude": 11.917778
     },
     {
         "Id": "DRAO",
         "Name": "Dominion Radio Astrophysical Observatory",
         "elevation": 550,
-        "latitude": -119.624,
-        "longitude": 49.321
+        "latitude": 49.321,
+        "longitude": -119.624
     }
 ]
