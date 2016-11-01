@@ -5,7 +5,6 @@ import datetime
 import dateutil.parser
 import json
 
-import pyproj
 from casacore import tables
 
 default_version = "1.1"
@@ -78,11 +77,13 @@ lla = pyproj.Proj(proj='latlong', ellps='WGS84', datum='WGS84')
 
 tablerows = t.row()
 for i, row in enumerate(obstable):
-    x, y, z = pyproj.transform(lla, ecef, row['longitude'],
-                               row['latitude'], row['elevation'])
+    [[x, y, z ]] =  tables.taql("calc meas.position('itrf',{}deg,{}deg,{}m,"
+                                "'wgsll')".format(row['longitude'],
+                                                  row['latitude'],
+                                                  row['elevation']))
     tablerows.put(i, {
         'MJD': 0.0,
-        'Name': row['Id'],
+        'Name': str(row['Id']),
         'Type': 'WGS84',
         'Long': row['longitude'],
         'Lat':  row['latitude'],
