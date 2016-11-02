@@ -134,14 +134,14 @@
     },
     {
         "Id": "CHIME",
-        "Name": "Canadian Hydrogen Intensity Mapping Experiment\"",
+        "Name": "Canadian Hydrogen Intensity Mapping Experiment",
         "elevation": 550,
         "latitude": 49.321,
         "longitude": -119.624
     },
     {
         "Id": "CARMA",
-        "Name": "Combined Array for Research in Millimeter-wave Astronomy\"",
+        "Name": "Combined Array for Research in Millimeter-wave Astronomy",
         "elevation": 2198,
         "latitude": 37.2804,
         "longitude": -118.142
