@@ -59,34 +59,34 @@ columns = [
     tables.makescacoldesc('Comment', '', valuetype='string'),
 ]
 
-t = tables.table(args.output_path, tables.tablecreatedesc(columns),
-                 len(obstable))
-t.putinfo({'type': 'IERS', 'subType': 'observatory'})
-t.putkeywords({
-    'MJD0': 0,
-    'dMJD': 0.0,
-    'VS_VERSION': '{:04d}.{:04d}'.format(*(int(i)
-                                           for i in args.version.split('.'))),
-    'VS_CREATE': dateutil.parser.parse(args.date).strftime('%Y/%m/%d/%H:%M'),
-    'VS_DATE': dateutil.parser.parse(args.date).strftime('%Y/%m/%d/%H:%M'),
-    'VS_TYPE': 'List of Observatory positions'
-})
-
-tablerows = t.row()
-for i, row in enumerate(obstable):
-    [[x, y, z ]] =  tables.taql("calc meas.position('itrf',{}deg,{}deg,{}m,"
-                                "'wgsll')".format(row['longitude'],
-                                                  row['latitude'],
-                                                  row['elevation']))
-    tablerows.put(i, {
-        'MJD': 0.0,
-        'Name': str(row['Id']),
-        'Type': 'WGS84',
-        'Long': row['longitude'],
-        'Lat':  row['latitude'],
-        'Height':  row['elevation'],
-        'X': x,
-        'Y': y,
-        'Z': z,
-        'Source': row.get('Reference', 'Wikipedia')
+with tables.table(args.output_path, tables.tablecreatedesc(columns),
+                  len(obstable)) as tbl:
+    tbl.putinfo({'type': 'IERS', 'subType': 'observatory'})
+    tbl.putkeywords({
+        'MJD0': 0,
+        'dMJD': 0.0,
+        'VS_VERSION': '{:04d}.{:04d}'.format(*(int(i)
+                                               for i in args.version.split('.'))),
+        'VS_CREATE': dateutil.parser.parse(args.date).strftime('%Y/%m/%d/%H:%M'),
+        'VS_DATE': dateutil.parser.parse(args.date).strftime('%Y/%m/%d/%H:%M'),
+        'VS_TYPE': 'List of Observatory positions'
     })
+
+    tablerows = tbl.row()
+    for i, row in enumerate(obstable):
+        [[x, y, z ]] =  tables.taql("calc meas.position('itrf',{}deg,{}deg,{}m,"
+                                    "'wgsll')".format(row['longitude'],
+                                                      row['latitude'],
+                                                      row['elevation']))
+        tablerows.put(i, {
+            'MJD': 0.0,
+            'Name': str(row['Id']),
+            'Type': 'WGS84',
+            'Long': row['longitude'],
+            'Lat':  row['latitude'],
+            'Height':  row['elevation'],
+            'X': x,
+            'Y': y,
+            'Z': z,
+            'Source': row.get('Reference', 'Wikipedia')
+        })
