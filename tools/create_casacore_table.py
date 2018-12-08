@@ -74,10 +74,13 @@ with tables.table(args.output_path, tables.tablecreatedesc(columns),
 
     tablerows = tbl.row()
     for i, row in enumerate(obstable):
-        [[x, y, z ]] =  tables.taql("calc meas.position('itrf',{}deg,{}deg,{}m,"
-                                    "'wgsll')".format(row['longitude'],
-                                                      row['latitude'],
-                                                      row['elevation']))
+        [[x, y, z ]] =  tables.taql("calc meas.position('itrf',"
+                                    " {}deg rad '',"
+                                    " {}deg rad '',"
+                                    " {}m,"
+                                    " 'wgsll')".format(row['longitude'],
+                                                       row['latitude'],
+                                                       row['elevation']))
         tablerows.put(i, {
             'MJD': 0.0,
             'Name': str(row['Id']),
